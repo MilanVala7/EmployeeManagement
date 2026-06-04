@@ -1,0 +1,23 @@
+@EmployeeManagement.API_HostAddress = http://localhost:5156
+
+GET {{EmployeeManagement.API_HostAddress}}/employees
+Accept: application/json
+
+###
+
+GET {{EmployeeManagement.API_HostAddress}}/employees/1
+Accept: application/json
+
+###
+
+POST {{EmployeeManagement.API_HostAddress}}/employees
+Content-Type: application/json
+
+{
+  "name": "abc",
+  "department": "Dotnet"
+}
+
+###
+
+DELETE {{EmployeeManagement.API_HostAddress}}/employees/1

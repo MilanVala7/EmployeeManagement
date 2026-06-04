@@ -1,0 +1,10 @@
+global using EmployeeManagement.Data;
+global using EmployeeManagement.Dtos;
+global using EmployeeManagement.Extensions;
+global using EmployeeManagement.Models;
+global using EmployeeManagement.Repository;
+global using EmployeeManagement.Services;
+global using Microsoft.AspNetCore.Builder;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.AspNetCore.RateLimiting;
+global using Microsoft.AspNetCore.Mvc;
